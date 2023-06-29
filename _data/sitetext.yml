@@ -11,127 +11,147 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: Better Plumbing Auckland
+    text: For Better Plumbing Solutions
     button: Tell Me More
     buttonlink: "#services"
 
   services:
     title: "Services"
-    text: "Lorem ipsum"
+    text: "Trusted Auckland plumbers providing comprehensive, high quality solutions for all your plumbing needs. From residential to commercial projects, we have the expertise to handle any plumbing job."
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Plumbing repairs and maintenance"
+        desc: "Keep your plumbing system in excellent condition with Better Plumbing's reliable repair and maintenance services. Our skilled plumbers will swiftly identify and fix any issues, ensuring optimal performance and preventing future problems."
+        icon: fas fa-wrench #find more at https://fontawesome.com/icons
+      - title: "Fixture installations and replacements"
+        desc: "Upgrade your fixtures with Better Plumbing's expert installation and replacement services. From faucets and sinks to toilets and showers, our professionals will ensure precise installation, improving both functionality and aesthetics."
+        icon: fas fa-shower
+      - title: "Water heater repair and installation"
+        desc: "Enjoy uninterrupted hot water with Better Plumbing's water heater repair and installation solutions. Our experienced technicians will promptly diagnose and resolve issues, ensuring your water heater operates efficiently and reliably."
+        icon: fas fa-water
+      - title: "Pipe repair and repiping"
+        desc: "Say goodbye to leaks and damaged pipes with Better Plumbing's expert pipe repair and repiping services. Our skilled team will assess the condition of your pipes and provide effective repairs or recommend repiping if necessary, ensuring a durable and efficient plumbing system."
+        icon: fas fa-bath
+      - title: "Drain cleaning and sewer line services"
+        desc: "Experience hassle-free drainage with Better Plumbing's thorough drain cleaning and sewer line services. Our advanced techniques and equipment effectively remove clogs and blockages, restoring proper flow and preventing backups."
+        icon: fas fa-broom
+      - title: "Bathroom and kitchen remodeling plumbing" #"[Markdown](https://en.wikipedia.org/wiki/Markdown)"
+        desc: "Transform your bathroom and kitchen with our exceptional remodeling plumbing services. From installing new fixtures to optimizing plumbing layouts, our expert team will bring your vision to life, creating stunning and functional spaces you'll love."
+        icon: fas fa-hammer
 
   portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Projects we've done"
     section: portfolio
-    closebutton: "Close Project"
+    closebutton: "Close"
 
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
+#  timeline:
+#    title: "Timeline"
+#    text: "Lorem ipsum timeline"
+#    section: timeline
+#    # left is the default
+#    #start_align: "left"
+#    events:
+#      - title: "Our Humble Beginnings"
+#        year: "2009-2011"
+#        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+#        image: assets/img/timeline/1.jpg
+#        alt:
+#      - title: "An Agency is Born"
+#        year: "March 2011"
+#        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+#        image: assets/img/timeline/2.jpg
+#        alt:
+#      - title: "Jekyll Theme is created"
+#        year: "2019"
+#        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
+#        image: assets/img/timeline/3.jpg
+#        alt: image alt text
+#      - title: "Title"
+#        year: "2009-2011"
+#        desc: "Your description here, **Markdown** is fully supported."
+#        image: assets/img/timeline/4.jpg
+#        alt:
+#        # you can enforce the alignment
+#        align: right
+#    end: "Be Part <br> of Our <br> Story!"
 
   about:
     title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    text: ""
+    body: "Better Plumbing is proudly owned and operated by director Calvin Adamson. For any commercial or residential jobs across Auckland, look no further than Better Plumbing. Our team ensures top-quality service and exceptional results for every project."
     section: about
-
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
+      - name: "Calvin Adamson"
+        role: "Director"
         image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+#        social:
+#          - url: https://twitter.com
+#            icon: fab fa-twitter
+#          - url: https://facebook.com
+#            icon: fab fa-facebook-f
+#          - url: https://linkedin.com
+#            icon: fab fa-linkedin-in
+
+#  clients:
+#    section: clients
+#    max-height: 100px
+#    horizontal-scrolling: "" #"yes/no"
+#    list:
+#      - title: "envato"
+#        url: https://github.com/raviriley/agency-jekyll-theme
+#        logo: assets/img/clients/envato.jpg
+#      - title: "designmodo"
+#        url: https://github.com/raviriley/agency-jekyll-theme
+#        logo: assets/img/clients/designmodo.jpg
+#      - title: "themeforest"
+#        url: https://github.com/raviriley/agency-jekyll-theme
+#        logo: assets/img/clients/themeforest.jpg
+#      - title: "Creative Market"
+#        url: https://github.com/raviriley/agency-jekyll-theme
+#        logo: assets/img/clients/creative-market.jpg
+
+#  team:
+#    title: "OUR AMAZING TEAM"
+#    text: "Lorem ipsum dolor sit amet consectetur."
+#    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+#    section: team
+#    people:
+#      - name: "Kay Garland"
+#        role: "Lead Designer"
+#        image: assets/img/team/500x500.jpg
+#        social:
+#          - url: https://twitter.com
+#            icon: fab fa-twitter
+#          - url: https://facebook.com
+#            icon: fab fa-facebook-f
+#          - url: https://linkedin.com
+#            icon: fab fa-linkedin-in
+#      - name: "Larry Parker"
+#        role: "Lead Marketer"
+#        image: assets/img/team/2.jpg
+#        social:
+#          - url: https://twitter.com
+#            icon: fab fa-twitter
+#          - url: https://facebook.com
+#            icon: fab fa-facebook-f
+#          - url: https://linkedin.com
+#            icon: fab fa-linkedin-in
+#      - name: "Diana Perterson"
+#        role: "Lead Developer"
+#        image: assets/img/team/500x500.jpg
+#        social:
+#          - url: https://twitter.com
+#            icon: fab fa-twitter
+#          - url: https://facebook.com
+#            icon: fab fa-facebook-f
+#          - url: https://linkedin.com
+#            icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Email: calvin@betterplumbing.co.nz <br> Phone: 0800 blah <br> <br> Enquire here or ask for a quote"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -142,7 +162,7 @@ en: &DEFAULT_EN
     message: "Message*"
     message-validation: "Please enter a message."
     subject: "Contact Form Submission"
-    submit: "Send Message"
+    submit: "Send Enquiry"
 
   footer:
     legal: "Privacy Policy"
@@ -196,36 +216,36 @@ es: &DEFAULT_ES
     section: portafolio
     closebutton: "Cerrar Proyecto"
 
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
+#  timeline:
+#    title: "Cronología"
+#    text: "Lorem ipsum timeline"
+#    section: cronologia
+#    # left is the default
+#    #start_align: "left"
+#    events:
+#      - title: "Nuestro Humilde Comienzo"
+#        year: "2009-2011"
+#        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+#        image: assets/img/timeline/1.jpg
+#        alt:
+#      - title: "Una Agencia nace"
+#        year: "March 2011"
+#        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+#        image: assets/img/timeline/2.jpg
+#        alt:
+#      - title: "La plantilla Jekyll es creada"
+#        year: "2019"
+#        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
+#        image: assets/img/timeline/3.jpg
+#        alt: image alt text
+#      - title: "Título"
+#        year: "2009-2011"
+#        desc: "Su descripción aquí, **Markdown** es soportado completamente."
+#        image: assets/img/timeline/4.jpg
+#        alt:
+#        # you can enforce the alignment
+#        align: right
+#    end: "¡Se parte <br> de Nuestra <br> Historia!"
 
   about:
     title: "Sobre nosotros"

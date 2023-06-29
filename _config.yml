@@ -11,18 +11,18 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-theme: jekyll-agency
+#theme: jekyll-agency
 
-url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url    : "https://betterplumbing.co.nz" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
 
-title      : Your Awesome Website
-email      : your-email@example.com #this is also the email contact forms will go to
-description: "Site description"
-author     : Your Name
-# logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
-  # height: 60 #height in px, defaults to 52px
+title      : Better Plumbing
+email      : calvin@betterplumbing.co.nz #this is also the email contact forms will go to
+description: "Welcome to Better Plumbing - Your Trusted Plumbing Experts. Our team of highly skilled and experienced plumbers provides comprehensive solutions for all your plumbing needs. From residential to commercial projects, we handle any plumbing challenge with precision and efficiency. Our licensed plumbers stay up-to-date with the latest plumbing technology and techniques, ensuring superior results. We prioritize promptness, reliability, and customer satisfaction. Whether you need routine repairs, installations, or a complete plumbing system overhaul, our comprehensive services have you covered. Contact Better Plumbing today for reliable, efficient, and top-quality plumbing solutions. Experience the difference of working with true professionals."
+author     : Better Plumbing
+logo:     #optional, defaults to site title
+ path: assets\img\logo.jpg
+ height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
@@ -36,4 +36,4 @@ markdown: kramdown
 
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
-# formspree_form_path: "f/a_form_id"
+formspree_form_path: "f/xzblpalg"
