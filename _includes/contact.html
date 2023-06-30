@@ -1,10 +1,26 @@
 <!-- Contact -->
-<script src="https://www.google.com/recaptcha/api.js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LeFhNwmAAAAAJRvUa32Axk3SSBvd3rUIZzz9Rda"></script>
 <script>
-  function onSubmit(token) {
-    document.getElementById("contactForm").submit();
-  }
+    window.addEventListener('load', () => {
+      const $recaptcha = document.querySelector('#g-recaptcha-response');
+      if ($recaptcha) {
+        $recaptcha.setAttribute('required', 'required');
+      }
+    })
 </script>
+<head>
+  <style>
+    #g-recaptcha-response {
+      display: block !important;
+      position: absolute;
+      margin: -78px 0 0 0 !important;
+      width: 302px !important;
+      height: 76px !important;
+      z-index: -999999;
+      opacity: 0;
+    }
+  </style>
+</head>
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="page-section" id="{{ site.data.sitetext[site.locale].contact.section | default: "contact" }}">
   <div class="container">
@@ -59,6 +75,8 @@
                       data-sitekey="{{ site.formspree_recaptcha_key }}"
                       data-callback='onSubmit'
                       data-action='submit'>{{ site.data.sitetext[site.locale].contact.submit | default: "Send Message" }}</button>
+<!--              <input id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase"-->
+<!--                      type="submit">{{ site.data.sitetext.contact.submit | default: "Send Message" }}</input>-->
             </div>
             <input type="text" name="_gotcha" style="display:none">
             <input type="hidden" name="_next" value="#" />
