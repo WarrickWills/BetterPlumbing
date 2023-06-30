@@ -1,26 +1,5 @@
 <!-- Contact -->
 <script src="https://www.google.com/recaptcha/api.js?render=6LeFhNwmAAAAAJRvUa32Axk3SSBvd3rUIZzz9Rda"></script>
-<script>
-    window.addEventListener('load', () => {
-      const $recaptcha = document.querySelector('#g-recaptcha-response');
-      if ($recaptcha) {
-        $recaptcha.setAttribute('required', 'required');
-      }
-    })
-</script>
-<head>
-  <style>
-    #g-recaptcha-response {
-      display: block !important;
-      position: absolute;
-      margin: -78px 0 0 0 !important;
-      width: 302px !important;
-      height: 76px !important;
-      z-index: -999999;
-      opacity: 0;
-    }
-  </style>
-</head>
 {% if site.locale and site.locale != "" and site.locale != nil %}
 <section class="page-section" id="{{ site.data.sitetext[site.locale].contact.section | default: "contact" }}">
   <div class="container">
