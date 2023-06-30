@@ -48,6 +48,11 @@
             <input type="hidden" name="_subject" id="email-subject"
               value="{{ site.data.sitetext[site.locale].contact.subject | default: "Contact Form Submission" }}">
             <div class="clearfix"></div>
+            <div class="recaptcha-message col-lg-12 text-center">
+              This site is protected by reCAPTCHA and the Google
+              <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+              <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+            </div>
             <div class="col-lg-12 text-center">
               <div id="success"></div>
               <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase"
